@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container h1 {
+    color: #1877f2;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.textbook {
+    margin-bottom: 15px;
+}
+.textbook input,
+.textbook select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.textbook select {
+    width: calc(32% - 10px);
+    margin-right: 1%;
+}
+.textbook select:last-child {
+    margin-right: 0;
+}
+
+.birthday {
+    text-align:left;
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}
+
+.gender { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15 px;
+}
+
+.gender label {
+    flex: 1; 
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #2222; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gender input {
+    display: none ;
+
+}
+
+.gender input:checked + label {
+    background-color : rgb(141, 138, 138);
+    border-color: rgb(0, 183, 255); 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group input,
+.form-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-group select {
+    width: calc(32% - 10px);
+    margin-right: 1%;
+}
+.form-group select:last-child {
+    margin-right: 0;
+}
+
+.form-group p{
+    text-align: left;
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}

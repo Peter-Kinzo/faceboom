@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 8, 255);
+}
+
+.container {
+    display: flex;
+    max-width:  900px;
+    width: 100%;
+    padding: 20px;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(27, 26, 26);
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 90%;
+    padding: 15px;
+    border: 3px solid rgb(182, 178, 178);
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+h1 {
+    color: blue ;
+}
+
+.btn-blue-btn{
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  background-color: blue;
+}
+.forgot-password {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.create-account {
+    color: green; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
